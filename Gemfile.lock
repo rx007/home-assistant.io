@@ -72,7 +72,7 @@ GEM
     mercenary (0.4.0)
     mini_portile2 (2.5.0)
     multi_json (1.15.0)
-    mustermann (1.1.1)
+    mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
@@ -83,8 +83,8 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.5.2)
-    rack (2.2.3)
-    rack-protection (2.1.0)
+    rack (2.2.7)
+    rack-protection (2.2.3)
       rack
     rake (13.0.3)
     rb-fsevent (0.10.4)
@@ -94,7 +94,7 @@ GEM
     rouge (3.26.0)
     ruby-enum (0.8.0)
       i18n
-    ruby2_keywords (0.0.2)
+    ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
     sass (3.4.25)
     sass-globbing (1.1.5)
@@ -103,15 +103,15 @@ GEM
       ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
-    sinatra (2.1.0)
-      mustermann (~> 1.0)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
       rack (~> 2.2)
-      rack-protection (= 2.1.0)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
     stringex (2.8.5)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    tilt (2.0.10)
+    tilt (2.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2020.6)
@@ -133,7 +133,7 @@ DEPENDENCIES
   nokogiri (= 1.11.1)
   rake (= 13.0.3)
   sass-globbing (= 1.1.5)
-  sinatra (= 2.1.0)
+  sinatra (= 2.2.3)
   stringex (= 2.8.5)
   tzinfo (~> 2.0)
   tzinfo-data
@@ -142,4 +142,4 @@ RUBY VERSION
    ruby 2.6.2p47
 
 BUNDLED WITH
-   2.0.1
+   1.17.3
